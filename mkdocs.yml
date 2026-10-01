@@ -1,0 +1,113 @@
+site_name: Tailwind CSS Mastery Path
+site_description: A structured Tailwind CSS v4 course from first utility to production — utilities, variants, responsive and dark mode, @theme tokens, custom utilities, plugins, accessibility and design systems — with every example compiled and checked in a real browser.
+site_url: https://sigilipelli.github.io/tailwind-mastery-path/
+repo_url: https://github.com/sigilipelli/tailwind-mastery-path
+repo_name: tailwind-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What Tailwind Is (and Isn't)": level-1/01-what-tailwind-is.md
+      - "02 · Installing Tailwind v4: CLI, Vite & Source Detection": level-1/02-installation.md
+      - "03 · Utility Basics: Spacing, Sizing & the Scale": level-1/03-utilities-spacing-sizing.md
+      - "04 · Typography Utilities": level-1/04-typography.md
+      - "05 · Colors, Opacity, Backgrounds & Borders": level-1/05-color-backgrounds-borders.md
+      - "06 · Layout & Flexbox Utilities": level-1/06-flexbox-layout.md
+      - "07 · Grid Utilities": level-1/07-grid.md
+      - "08 · Hover, Focus & Other States: group and peer": level-1/08-states-variants.md
+      - "09 · Responsive Design with Breakpoint Variants": level-1/09-responsive.md
+      - "10 · Project — A Landing Page": level-1/10-project-landing-page.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Design Tokens with @theme": level-2/01-theme-directive.md
+      - "02 · Customizing Colors, Fonts, Spacing & Breakpoints": level-2/02-customizing-theme.md
+      - "03 · Dark Mode": level-2/03-dark-mode.md
+      - "04 · Arbitrary Values, Properties & CSS Variables": level-2/04-arbitrary-values.md
+      - "05 · Reusing Styles: Components, @apply & @utility": level-2/05-reusing-styles.md
+      - "06 · Advanced Variants: aria, data, has, not & Custom Variants": level-2/06-advanced-variants.md
+      - "07 · Container Queries in Tailwind": level-2/07-container-queries.md
+      - "08 · Styling Forms": level-2/08-forms.md
+      - "09 · Transitions, Transforms & Animation": level-2/09-transitions-animation.md
+      - "10 · Project — A Dashboard Layout": level-2/10-project-dashboard.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · How the Engine Works: Scanning & Generation": level-3/01-how-the-engine-works.md
+      - "02 · Cascade Layers, Preflight & Specificity": level-3/02-layers-preflight.md
+      - "03 · Custom Utilities, Functional Utilities & Plugins": level-3/03-custom-utilities-plugins.md
+      - "04 · Accessibility with Tailwind": level-3/04-accessibility.md
+      - "05 · Long-Form Content & the Typography Plugin": level-3/05-typography-plugin.md
+      - "06 · Tailwind in Component Frameworks: Class Merging & Variant APIs": level-3/06-frameworks-class-merging.md
+      - "07 · Building a Design System on Tailwind": level-3/07-design-systems.md
+      - "08 · Migrating from v3 to v4": level-3/08-migrating-v3-v4.md
+      - "09 · Production Builds & Performance": level-3/09-production-performance.md
+      - "10 · Project — A Component Library": level-3/10-project-component-library.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Conventions at Scale: Class Order, Linting & Review": level-4/01-conventions-at-scale.md
+      - "02 · Multi-Brand & Runtime Theming": level-4/02-multi-brand-theming.md
+      - "03 · RTL, Logical Utilities & Internationalization": level-4/03-rtl-logical.md
+      - "04 · Print, Contrast, Motion & Other Media Variants": level-4/04-media-variants.md
+      - "05 · Modern CSS Through Tailwind": level-4/05-modern-css-features.md
+      - "06 · Working with Existing CSS & Third-Party Components": level-4/06-interop-existing-css.md
+      - "07 · Tailwind with Server-Rendered Templates & Static Sites": level-4/07-server-templates.md
+      - "08 · Debugging Tailwind": level-4/08-debugging.md
+      - "09 · Testing Tailwind UIs": level-4/09-testing.md
+      - "10 · Capstone — A SaaS Marketing Site & App Shell": level-4/10-capstone.md
