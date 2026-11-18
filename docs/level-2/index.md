@@ -41,9 +41,9 @@ The ideas that carry this level:
   and read the CSS Tailwind generates.
 - **Basic JavaScript** for lessons 03, 06 and the project: selecting elements, adding
   event listeners, setting attributes. If that's new, see
-  [JavaScript Mastery Path](https://sigilipelli.github.io/javascript-mastery-path/).
+  [JavaScript Mastery Path](https://learnmasterypath.com/javascript-mastery-path/).
 - **CSS custom properties.** Lessons 01–03 lean on how `var()` and inheritance work. The
-  [Custom Properties](https://sigilipelli.github.io/html-css-mastery-path/level-2/09-custom-properties/)
+  [Custom Properties](https://learnmasterypath.com/html-css-mastery-path/level-2/09-custom-properties/)
   lesson on the HTML & CSS course covers what you need.
 
 All examples were compiled with Tailwind CSS 4.3.3, and behaviour claims (what a variant

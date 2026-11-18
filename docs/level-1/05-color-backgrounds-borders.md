@@ -176,7 +176,7 @@ step compared to v3: v3's `shadow-sm` is v4's `shadow-xs`.)
 One colour family, three shades: a light background (50), a mid border (300), dark text
 (900) and a saturated icon (500). Picking shades this way usually gives enough contrast
 for text — but check it: amber-900 on amber-50 is fine, amber-600 on amber-50 might not
-be. The [HTML & CSS course's colour lesson](https://sigilipelli.github.io/html-css-mastery-path/level-2/02-color-backgrounds/)
+be. The [HTML & CSS course's colour lesson](https://learnmasterypath.com/html-css-mastery-path/level-2/02-color-backgrounds/)
 explains contrast ratios.
 
 ## How It Actually Works

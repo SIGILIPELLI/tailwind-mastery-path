@@ -77,7 +77,7 @@ stops a figure or table row from splitting across pages; both computed to `avoid
 Other print habits: remove dark backgrounds (`print:bg-white`), make text black for
 toner and contrast, and remove shadows. Use the browser's print preview, or Playwright's
 `page.pdf()`, to check. (For the CSS behind this, see
-[Print Styles](https://sigilipelli.github.io/html-css-mastery-path/level-4/07-print-styles/)
+[Print Styles](https://learnmasterypath.com/html-css-mastery-path/level-4/07-print-styles/)
 on the HTML & CSS course.)
 
 ## More contrast

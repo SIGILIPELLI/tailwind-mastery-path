@@ -8,8 +8,8 @@ Tailwind's layout utilities are thin wrappers over CSS layout properties, so the
 skill is knowing Flexbox and Grid; the class names come quickly after that. This lesson
 maps Flexbox to its utilities, measures the handful whose behaviour surprises people, and
 covers display, positioning and z-index. (For the underlying algorithm, see
-[Flexbox Fundamentals](https://sigilipelli.github.io/html-css-mastery-path/level-2/03-flexbox-fundamentals/)
-and [Flexbox in Depth](https://sigilipelli.github.io/html-css-mastery-path/level-2/04-flexbox-in-depth/)
+[Flexbox Fundamentals](https://learnmasterypath.com/html-css-mastery-path/level-2/03-flexbox-fundamentals/)
+and [Flexbox in Depth](https://learnmasterypath.com/html-css-mastery-path/level-2/04-flexbox-in-depth/)
 in the HTML & CSS course.)
 
 ## Display
@@ -127,7 +127,7 @@ arbitrary `z-[60]`. The CSS rules are exactly the plain-CSS ones: an absolute el
 positions against its nearest positioned ancestor, and `z-index` only competes within a
 stacking context. If a `z-50` element still hides behind something, a parent with
 `opacity`, `transform` or `filter` has probably created a stacking context —
-[this lesson](https://sigilipelli.github.io/html-css-mastery-path/level-2/07-positioning-stacking/)
+[this lesson](https://learnmasterypath.com/html-css-mastery-path/level-2/07-positioning-stacking/)
 explains the rules. `isolate` (`isolation: isolate`) creates one deliberately.
 
 ## Worked example: a media object with actions

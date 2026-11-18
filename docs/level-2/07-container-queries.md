@@ -13,7 +13,7 @@ works anywhere.
 
 Container queries are built into Tailwind v4 (in v3 they needed a plugin). For the
 underlying CSS, see
-[Container Queries](https://sigilipelli.github.io/html-css-mastery-path/level-3/06-container-queries/)
+[Container Queries](https://learnmasterypath.com/html-css-mastery-path/level-3/06-container-queries/)
 on the HTML & CSS course.
 
 ## The two halves: a container and a query

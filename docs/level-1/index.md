@@ -16,7 +16,7 @@ Three ideas carry you through all ten modules:
 2. **Utilities map to CSS you already know.** `p-4` is `padding`, `grid-cols-3` is a grid
    template, `items-center` is `align-items`. Tailwind doesn't replace CSS knowledge; it
    gives it shorter names. Where a lesson depends on a CSS concept, it links to the
-   matching page on the [HTML & CSS course](https://sigilipelli.github.io/html-css-mastery-path/).
+   matching page on the [HTML & CSS course](https://learnmasterypath.com/html-css-mastery-path/).
 3. **Variants are prefixes that wrap a rule.** `hover:`, `focus-visible:`, `md:` and
    `group-hover:` all work the same way: they add a pseudo-class, a selector or a media
    query around an ordinary utility.
@@ -39,7 +39,7 @@ Three ideas carry you through all ten modules:
 - **HTML and CSS basics:** elements, classes, the box model, and what Flexbox and Grid
   are for. You don't need to be an expert, but Tailwind is much easier if you can read
   the CSS it generates. If that's new, start with
-  [HTML & CSS Mastery Path](https://sigilipelli.github.io/html-css-mastery-path/).
+  [HTML & CSS Mastery Path](https://learnmasterypath.com/html-css-mastery-path/).
 - **Node.js** (a current LTS release) and npm, to run the compiler. Check with `node -v`.
 - An editor. VS Code with the official **Tailwind CSS IntelliSense** extension gives you
   autocompletion and shows the generated CSS on hover (lesson 02).

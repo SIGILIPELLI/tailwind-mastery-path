@@ -74,7 +74,7 @@ Not every value is a spacing multiple:
 
 Keywords you'll use constantly: `w-full` (100%), `w-auto`, `w-fit` (`fit-content`),
 `min-w-0` (essential inside flex and grid — see
-[the min-width: auto trap](https://sigilipelli.github.io/html-css-mastery-path/level-2/04-flexbox-in-depth/)),
+[the min-width: auto trap](https://learnmasterypath.com/html-css-mastery-path/level-2/04-flexbox-in-depth/)),
 `h-full`, `min-h-dvh`.
 
 The `max-w-*` named sizes (`max-w-sm`, `md`, `lg`, `xl`, `2xl` … `7xl`) come from the

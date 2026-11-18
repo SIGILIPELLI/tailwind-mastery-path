@@ -13,7 +13,7 @@ what they compiled to and how they behaved in a right-to-left test, the `rtl:` a
 variants for the rest, and the text issues that come with translation.
 
 (For the CSS side, see
-[Logical Properties & i18n](https://sigilipelli.github.io/html-css-mastery-path/level-4/05-logical-properties-i18n/)
+[Logical Properties & i18n](https://learnmasterypath.com/html-css-mastery-path/level-4/05-logical-properties-i18n/)
 on the HTML & CSS course.)
 
 ## Direction comes from HTML

@@ -66,7 +66,7 @@ A few things are worth noticing already:
 - **The spacing scale is one variable.** `p-6` is `var(--spacing) * 6`, i.e. 1.5rem. Change
   `--spacing` and every spacing utility changes with it.
 - **Colours are in `oklch()`** — a modern perceptual colour space (the
-  [HTML & CSS Mastery Path](https://sigilipelli.github.io/html-css-mastery-path/level-2/02-color-backgrounds/)
+  [HTML & CSS Mastery Path](https://learnmasterypath.com/html-css-mastery-path/level-2/02-color-backgrounds/)
   explains it).
 - **Everything lives in cascade layers** (`@layer theme`, `@layer utilities`), which
   Level 3 · 02 explains.
@@ -108,7 +108,7 @@ uses a few hundred, and a whole site rarely more than a few thousand.
 - **You still need to know CSS.** `flex`, `grid`, `min-w-0`, `sticky` are CSS concepts with
   shorter names. Tailwind doesn't explain *why* a flex item overflows; CSS knowledge does.
   If CSS is new to you, work through
-  [HTML & CSS Mastery Path](https://sigilipelli.github.io/html-css-mastery-path/) alongside
+  [HTML & CSS Mastery Path](https://learnmasterypath.com/html-css-mastery-path/) alongside
   this course — this course links to it wherever a concept needs depth.
 - **A build step.** Something has to scan your files and generate the CSS (lesson 02).
 - **Dynamic class names don't work.** Because classes are found by scanning source text,
@@ -174,7 +174,7 @@ Tailwind v4 is a compiler with three steps:
 
 The generated CSS is ordinary CSS. Browsers don't know Tailwind exists; there's no runtime
 JavaScript. That means everything from the
-[cascade](https://sigilipelli.github.io/html-css-mastery-path/level-1/08-cascade-specificity/)
+[cascade](https://learnmasterypath.com/html-css-mastery-path/level-1/08-cascade-specificity/)
 to browser devtools works exactly as it does for any stylesheet.
 
 ## Common mistakes

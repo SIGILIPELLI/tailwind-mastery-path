@@ -13,7 +13,7 @@ accessibility, with measurements taken while writing this course, including two
 problems we found in our own earlier examples.
 
 (For the HTML side — landmarks, headings, ARIA, keyboard support — see the
-[Accessibility Foundations](https://sigilipelli.github.io/html-css-mastery-path/level-3/01-accessibility-foundations/)
+[Accessibility Foundations](https://learnmasterypath.com/html-css-mastery-path/level-3/01-accessibility-foundations/)
 lessons on the HTML & CSS course.)
 
 ## Colour contrast: measure, don't guess

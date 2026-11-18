@@ -11,7 +11,7 @@ mental model you need is **mobile first**, and the single most common bug comes 
 forgetting it.
 
 (For the underlying CSS, media queries and fluid layouts, see
-[Responsive Design](https://sigilipelli.github.io/html-css-mastery-path/level-2/08-responsive-design/)
+[Responsive Design](https://learnmasterypath.com/html-css-mastery-path/level-2/08-responsive-design/)
 on the HTML & CSS course.)
 
 ## The default breakpoints

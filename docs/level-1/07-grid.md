@@ -8,8 +8,8 @@ Grid is the layout tool for anything with rows *and* columns: galleries, dashboa
 shells, forms with aligned labels. Tailwind's grid utilities cover the everyday cases with
 short names and let you drop to any CSS grid template with an arbitrary value when you
 need more. (For Grid itself, see
-[CSS Grid Fundamentals](https://sigilipelli.github.io/html-css-mastery-path/level-2/05-grid-fundamentals/)
-and [Grid in Depth](https://sigilipelli.github.io/html-css-mastery-path/level-2/06-grid-in-depth/).)
+[CSS Grid Fundamentals](https://learnmasterypath.com/html-css-mastery-path/level-2/05-grid-fundamentals/)
+and [Grid in Depth](https://learnmasterypath.com/html-css-mastery-path/level-2/06-grid-in-depth/).)
 
 ## Columns and rows
 

@@ -11,8 +11,8 @@ become easy to explain. You'll also look closely at **Preflight**, the base rese
 quietly changes how headings, lists, images and buttons behave.
 
 (For the cascade itself, see
-[Cascade & Specificity](https://sigilipelli.github.io/html-css-mastery-path/level-1/08-cascade-specificity/)
-and [Modern Selectors & Layers](https://sigilipelli.github.io/html-css-mastery-path/level-3/07-modern-selectors-layers/)
+[Cascade & Specificity](https://learnmasterypath.com/html-css-mastery-path/level-1/08-cascade-specificity/)
+and [Modern Selectors & Layers](https://learnmasterypath.com/html-css-mastery-path/level-3/07-modern-selectors-layers/)
 on the HTML & CSS course.)
 
 ## The four layers
