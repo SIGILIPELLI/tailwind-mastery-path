@@ -57,9 +57,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -131,3 +133,5 @@ nav:
       - "08 · Debugging Tailwind": level-4/08-debugging.md
       - "09 · Testing Tailwind UIs": level-4/09-testing.md
       - "10 · Capstone — A SaaS Marketing Site & App Shell": level-4/10-capstone.md
+  - "🎯 Final Quiz": quiz.md
+
