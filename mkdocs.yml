@@ -87,8 +87,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · What Tailwind Is (and Isn't)": level-1/01-what-tailwind-is.md
@@ -137,5 +137,5 @@ nav:
       - "08 · Debugging Tailwind": level-4/08-debugging.md
       - "09 · Testing Tailwind UIs": level-4/09-testing.md
       - "10 · Capstone — A SaaS Marketing Site & App Shell": level-4/10-capstone.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
