@@ -1,0 +1,4345 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="180 Tailwind CSS interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Tailwind CSS Mastery Path.">
+      
+      
+      
+        <link rel="canonical" href="https://learnmasterypath.com/tailwind-mastery-path/interview-questions/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../cheat-sheet/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+  
+  <title>Tailwind CSS Interview Questions and Answers (180 Questions)</title>
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../stylesheets/progress-tracker.css">
+    
+      <link rel="stylesheet" href="../stylesheets/final-quiz.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05VBGCXN12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-05VBGCXN12');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mastery Path">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Tailwind CSS Interview Questions and Answers (180 Questions)">
+  <meta property="og:description" content="180 Tailwind CSS interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Tailwind CSS Mastery Path.">
+  <meta property="og:url" content="https://learnmasterypath.com/tailwind-mastery-path/interview-questions/">
+  <meta property="og:image" content="https://learnmasterypath.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mastery Path: free structured courses, beginner to master">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tailwind CSS Interview Questions and Answers (180 Questions)">
+  <meta name="twitter:description" content="180 Tailwind CSS interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Tailwind CSS Mastery Path.">
+  <meta name="twitter:image" content="https://learnmasterypath.com/og-image.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9440969811959397"
+     crossorigin="anonymous"></script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Mastery Path", "item": "https://learnmasterypath.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Tailwind CSS Mastery Path", "item": "https://learnmasterypath.com/tailwind-mastery-path/"},
+      {"@type": "ListItem", "position": 3, "name": "Interview Questions", "item": "https://learnmasterypath.com/tailwind-mastery-path/interview-questions/"}
+    ]
+  }
+  </script>
+  <style>
+    .md-banner a:hover { text-decoration: underline !important; }
+    .mp-related { margin-top: 2.4rem; padding-top: 1rem; border-top: 1px solid var(--md-default-fg-color--lightest); font-size: .78rem; }
+    .mp-related h2 { font-size: .9rem; margin: 0 0 .5rem; }
+    .mp-related ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem .9rem; }
+    .mp-related li { margin: 0 !important; }
+  </style>
+  <script type="application/json" id="mp-course-meta">{"home": false, "id": "tailwind-mastery-path", "name": "Tailwind CSS Mastery Path", "repo": "https://github.com/sigilipelli/tailwind-mastery-path", "src": "interview-questions.md", "url": "https://learnmasterypath.com/tailwind-mastery-path/"}</script>
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/learn.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/course.css?v=1">
+  <script src="https://learnmasterypath.com/assets/learn.js" defer></script>
+  <script src="https://learnmasterypath.com/assets/signup.js" defer></script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tailwind-css-interview-questions-and-answers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <a href="https://learnmasterypath.com/" style="color: inherit; text-decoration: none;">
+    &larr; Mastery Path &middot; all 100+ free courses
+  </a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/search/" style="color: inherit; text-decoration: none;">Search all courses</a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/resume/" style="color: inherit; font-weight: 700; text-decoration: none;">
+    Got the skills? Free resume ATS check &rarr;
+  </a>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Tailwind CSS Mastery Path" class="md-header__button md-logo" aria-label="Tailwind CSS Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tailwind CSS Mastery Path
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tailwind CSS Interview Questions and Answers (180 Questions)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sigilipelli/tailwind-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tailwind-mastery-path
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Interview Questions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cheat-sheet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cheat Sheet
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 1 · Entry
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-2/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 2 · Intermediate
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-3/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 3 · Advanced
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-4/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 4 · Master
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../quiz/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Quiz
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Tailwind CSS Mastery Path" class="md-nav__button md-logo" aria-label="Tailwind CSS Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    Tailwind CSS Mastery Path
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sigilipelli/tailwind-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tailwind-mastery-path
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Entry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Entry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-what-tailwind-is-and-isnt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · What Tailwind Is (and Isn't)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-installing-tailwind-v4-cli-vite-source-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Installing Tailwind v4: CLI, Vite &amp; Source Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-utility-basics-spacing-sizing-the-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Utility Basics: Spacing, Sizing &amp; the Scale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-typography-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Typography Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-colors-opacity-backgrounds-borders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Colors, Opacity, Backgrounds &amp; Borders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-layout-flexbox-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Layout &amp; Flexbox Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-grid-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Grid Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-hover-focus-other-states-group-and-peer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Hover, Focus &amp; Other States: group and peer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-responsive-design-with-breakpoint-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Responsive Design with Breakpoint Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-landing-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Landing Page
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-intermediate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Intermediate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Intermediate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-design-tokens-with-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Design Tokens with @theme
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-customizing-colors-fonts-spacing-breakpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Customizing Colors, Fonts, Spacing &amp; Breakpoints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-dark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Dark Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-arbitrary-values-properties-css-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Arbitrary Values, Properties &amp; CSS Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-reusing-styles-components-apply-utility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Reusing Styles: Components, @apply &amp; @utility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-advanced-variants-aria-data-has-not-custom-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Advanced Variants: aria, data, has, not &amp; Custom Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-container-queries-in-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Container Queries in Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-styling-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Styling Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-transitions-transforms-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Transitions, Transforms &amp; Animation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-dashboard-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Dashboard Layout
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Advanced
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-how-the-engine-works-scanning-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · How the Engine Works: Scanning &amp; Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-cascade-layers-preflight-specificity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Cascade Layers, Preflight &amp; Specificity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-custom-utilities-functional-utilities-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Custom Utilities, Functional Utilities &amp; Plugins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-accessibility-with-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Accessibility with Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-long-form-content-the-typography-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Long-Form Content &amp; the Typography Plugin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-tailwind-in-component-frameworks-class-merging-variant-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Tailwind in Component Frameworks: Class Merging &amp; Variant APIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-building-a-design-system-on-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Building a Design System on Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-migrating-from-v3-to-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Migrating from v3 to v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-production-builds-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Production Builds &amp; Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-component-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Component Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Master
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Master">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-conventions-at-scale-class-order-linting-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Conventions at Scale: Class Order, Linting &amp; Review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-multi-brand-runtime-theming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Multi-Brand &amp; Runtime Theming
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-rtl-logical-utilities-internationalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · RTL, Logical Utilities &amp; Internationalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-print-contrast-motion-other-media-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Print, Contrast, Motion &amp; Other Media Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-modern-css-through-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Modern CSS Through Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-working-with-existing-css-third-party-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Working with Existing CSS &amp; Third-Party Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-tailwind-with-server-rendered-templates-static-sites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Tailwind with Server-Rendered Templates &amp; Static Sites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-debugging-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Debugging Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-testing-tailwind-uis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Testing Tailwind UIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-capstone-a-saas-marketing-site-app-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Capstone — A SaaS Marketing Site &amp; App Shell
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-responsive-card-classes-and-the-css-they-generate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A responsive card: classes and the CSS they generate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-tokens-a-custom-utility-and-a-custom-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design tokens, a custom utility and a custom variant
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheat-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cheat Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 1 · Entry
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 1 · Entry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/01-what-tailwind-is/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · What Tailwind Is (and Isn't)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/02-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Installing Tailwind v4: CLI, Vite & Source Detection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/03-utilities-spacing-sizing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Utility Basics: Spacing, Sizing & the Scale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/04-typography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Typography Utilities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/05-color-backgrounds-borders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Colors, Opacity, Backgrounds & Borders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/06-flexbox-layout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Layout & Flexbox Utilities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/07-grid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Grid Utilities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/08-states-variants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Hover, Focus & Other States: group and peer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/09-responsive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Responsive Design with Breakpoint Variants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/10-project-landing-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — A Landing Page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 · Intermediate
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 2 · Intermediate
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/01-theme-directive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Design Tokens with @theme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/02-customizing-theme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Customizing Colors, Fonts, Spacing & Breakpoints
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/03-dark-mode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Dark Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/04-arbitrary-values/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Arbitrary Values, Properties & CSS Variables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/05-reusing-styles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Reusing Styles: Components, @apply & @utility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/06-advanced-variants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Advanced Variants: aria, data, has, not & Custom Variants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/07-container-queries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Container Queries in Tailwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/08-forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Styling Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/09-transitions-animation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Transitions, Transforms & Animation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/10-project-dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — A Dashboard Layout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 · Advanced
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 3 · Advanced
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/01-how-the-engine-works/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · How the Engine Works: Scanning & Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/02-layers-preflight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Cascade Layers, Preflight & Specificity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/03-custom-utilities-plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Custom Utilities, Functional Utilities & Plugins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/04-accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Accessibility with Tailwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/05-typography-plugin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Long-Form Content & the Typography Plugin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/06-frameworks-class-merging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Tailwind in Component Frameworks: Class Merging & Variant APIs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/07-design-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Building a Design System on Tailwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/08-migrating-v3-v4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Migrating from v3 to v4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/09-production-performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Production Builds & Performance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/10-project-component-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — A Component Library
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-4/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 4 · Master
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 4 · Master
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/01-conventions-at-scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Conventions at Scale: Class Order, Linting & Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/02-multi-brand-theming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Multi-Brand & Runtime Theming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/03-rtl-logical/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · RTL, Logical Utilities & Internationalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/04-media-variants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Print, Contrast, Motion & Other Media Variants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/05-modern-css-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Modern CSS Through Tailwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/06-interop-existing-css/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Working with Existing CSS & Third-Party Components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/07-server-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Tailwind with Server-Rendered Templates & Static Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/08-debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Debugging Tailwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/09-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Testing Tailwind UIs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/10-capstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Capstone — A SaaS Marketing Site & App Shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Entry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Entry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-what-tailwind-is-and-isnt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · What Tailwind Is (and Isn't)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-installing-tailwind-v4-cli-vite-source-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Installing Tailwind v4: CLI, Vite &amp; Source Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-utility-basics-spacing-sizing-the-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Utility Basics: Spacing, Sizing &amp; the Scale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-typography-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Typography Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-colors-opacity-backgrounds-borders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Colors, Opacity, Backgrounds &amp; Borders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-layout-flexbox-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Layout &amp; Flexbox Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-grid-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Grid Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-hover-focus-other-states-group-and-peer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Hover, Focus &amp; Other States: group and peer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-responsive-design-with-breakpoint-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Responsive Design with Breakpoint Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-landing-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Landing Page
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-intermediate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Intermediate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Intermediate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-design-tokens-with-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Design Tokens with @theme
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-customizing-colors-fonts-spacing-breakpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Customizing Colors, Fonts, Spacing &amp; Breakpoints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-dark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Dark Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-arbitrary-values-properties-css-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Arbitrary Values, Properties &amp; CSS Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-reusing-styles-components-apply-utility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Reusing Styles: Components, @apply &amp; @utility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-advanced-variants-aria-data-has-not-custom-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Advanced Variants: aria, data, has, not &amp; Custom Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-container-queries-in-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Container Queries in Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-styling-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Styling Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-transitions-transforms-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Transitions, Transforms &amp; Animation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-dashboard-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Dashboard Layout
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Advanced
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-how-the-engine-works-scanning-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · How the Engine Works: Scanning &amp; Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-cascade-layers-preflight-specificity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Cascade Layers, Preflight &amp; Specificity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-custom-utilities-functional-utilities-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Custom Utilities, Functional Utilities &amp; Plugins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-accessibility-with-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Accessibility with Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-long-form-content-the-typography-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Long-Form Content &amp; the Typography Plugin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-tailwind-in-component-frameworks-class-merging-variant-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Tailwind in Component Frameworks: Class Merging &amp; Variant APIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-building-a-design-system-on-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Building a Design System on Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-migrating-from-v3-to-v4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Migrating from v3 to v4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-production-builds-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Production Builds &amp; Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-a-component-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — A Component Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-master" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Master
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Master">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-conventions-at-scale-class-order-linting-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Conventions at Scale: Class Order, Linting &amp; Review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-multi-brand-runtime-theming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Multi-Brand &amp; Runtime Theming
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-rtl-logical-utilities-internationalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · RTL, Logical Utilities &amp; Internationalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-print-contrast-motion-other-media-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Print, Contrast, Motion &amp; Other Media Variants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-modern-css-through-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Modern CSS Through Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-working-with-existing-css-third-party-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Working with Existing CSS &amp; Third-Party Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-tailwind-with-server-rendered-templates-static-sites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Tailwind with Server-Rendered Templates &amp; Static Sites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-debugging-tailwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Debugging Tailwind
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-testing-tailwind-uis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Testing Tailwind UIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-capstone-a-saas-marketing-site-app-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Capstone — A SaaS Marketing Site &amp; App Shell
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-responsive-card-classes-and-the-css-they-generate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A responsive card: classes and the CSS they generate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-tokens-a-custom-utility-and-a-custom-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design tokens, a custom utility and a custom variant
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+  
+
+
+<h1 id="tailwind-css-interview-questions-and-answers">Tailwind CSS Interview Questions and Answers<a class="headerlink" href="#tailwind-css-interview-questions-and-answers" title="Permanent link">&para;</a></h1>
+<p><strong>180 questions</strong> with the correct answer and a short explanation, organised from beginner (Level 1) to advanced (Level 4). Every question comes from a lesson in the free Tailwind CSS Mastery Path, so you can open the lesson to go deeper.</p>
+<div class="admonition tip">
+<p class="admonition-title">Practise, don't just read</p>
+<p>Each lesson also ends with an interactive quiz, and the <a href="../quiz/">final quiz</a> tests all four levels. Try to answer each question below before reading the answer.</p>
+</div>
+<h2 id="level-1-entry">Level 1 · Entry<a class="headerlink" href="#level-1-entry" title="Permanent link">&para;</a></h2>
+<h3 id="01-what-tailwind-is-and-isnt"><a href="../level-1/01-what-tailwind-is/">01 · What Tailwind Is (and Isn't)</a><a class="headerlink" href="#01-what-tailwind-is-and-isnt" title="Permanent link">&para;</a></h3>
+<p><strong>Q1.</strong> What is Tailwind CSS?</p>
+<p><strong>Answer:</strong> A utility-first CSS framework: you style elements by composing small single-purpose classes in your markup</p>
+<p>Utilities such as p-4 and flex replace hand-written class rules.</p>
+<p><strong>Q2.</strong> What does Tailwind v4 generate in your final CSS?</p>
+<p><strong>Answer:</strong> Only the utilities your source files actually use, found by scanning your templates</p>
+<p>Unused classes are not emitted.</p>
+<p><strong>Q3.</strong> What is the main trade-off of utility-first CSS?</p>
+<p><strong>Answer:</strong> Longer class lists in markup in exchange for no naming, no dead CSS and styles co-located with structure</p>
+<p>Components and partials keep repetition manageable.</p>
+<p><strong>Q4.</strong> Why isn't Tailwind the same as inline styles?</p>
+<p><strong>Answer:</strong> Utilities support states, breakpoints, themes and design tokens, which inline styles cannot</p>
+<p>hover:, md: and dark: variants are the key difference.</p>
+<h3 id="02-installing-tailwind-v4-cli-vite-source-detection"><a href="../level-1/02-installation/">02 · Installing Tailwind v4: CLI, Vite &amp; Source Detection</a><a class="headerlink" href="#02-installing-tailwind-v4-cli-vite-source-detection" title="Permanent link">&para;</a></h3>
+<p><strong>Q5.</strong> What is the entire CSS entry file for Tailwind v4 in the simplest case?</p>
+<p><strong>Answer:</strong> @import "tailwindcss";</p>
+<p>v4 replaced the three @tailwind directives with a single import.</p>
+<p><strong>Q6.</strong> Which package provides the Vite plugin in v4?</p>
+<p><strong>Answer:</strong> @tailwindcss/vite</p>
+<p>Add it to vite.config and import tailwindcss in your CSS.</p>
+<p><strong>Q7.</strong> How does v4 decide which files to scan for class names?</p>
+<p><strong>Answer:</strong> Automatic source detection that respects .gitignore, plus @source to add or exclude paths</p>
+<p>No tailwind.config.js is required.</p>
+<p><strong>Q8.</strong> Which command builds CSS with the standalone CLI package?</p>
+<p><strong>Answer:</strong> npx @tailwindcss/cli -i input.css -o output.css</p>
+<p>Add --watch during development.</p>
+<h3 id="03-utility-basics-spacing-sizing-the-scale"><a href="../level-1/03-utilities-spacing-sizing/">03 · Utility Basics: Spacing, Sizing &amp; the Scale</a><a class="headerlink" href="#03-utility-basics-spacing-sizing-the-scale" title="Permanent link">&para;</a></h3>
+<p><strong>Q9.</strong> What does p-4 compile to in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"p-4"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> padding: calc(var(--spacing) * 4)</p>
+<p>Spacing utilities multiply the --spacing theme variable (0.25rem by default), so p-4 is 1rem. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q10.</strong> What does mx-auto compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"mx-auto"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> margin-inline: auto</p>
+<p>v4 emits logical margin-inline, centring block elements with a width. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q11.</strong> What do w-1/2 and h-screen compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"w-1/2 h-screen"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> width: calc(1 / 2 * 100%); height: 100vh</p>
+<p>Fractions become percentages; screen units use the viewport. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q12.</strong> What does size-8 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"size-8"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> width: calc(var(--spacing) * 8); height: calc(var(--spacing) * 8)</p>
+<p>size-* sets width and height together. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="04-typography-utilities"><a href="../level-1/04-typography/">04 · Typography Utilities</a><a class="headerlink" href="#04-typography-utilities" title="Permanent link">&para;</a></h3>
+<p><strong>Q13.</strong> What does text-xl font-bold compile to (v4 default theme)?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"text-xl font-bold"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> font-size: var(--text-xl); font-weight: var(--font-weight-bold)</p>
+<p>Utilities reference theme variables, which carry the real values. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q14.</strong> What does leading-tight do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"leading-tight"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> line-height: var(--leading-tight)</p>
+<p>Line height is separate from font size (unless using text-xl/6 shorthand). Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q15.</strong> What does truncate do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"truncate"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> text-overflow: ellipsis; white-space: nowrap; overflow: hidden</p>
+<p>A common one-class single-line ellipsis. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q16.</strong> How do you set font size and line height together?</p>
+<p><strong>Answer:</strong> With a slash modifier such as text-lg/7</p>
+<p>The modifier sets line-height.</p>
+<h3 id="05-colors-opacity-backgrounds-borders"><a href="../level-1/05-color-backgrounds-borders/">05 · Colors, Opacity, Backgrounds &amp; Borders</a><a class="headerlink" href="#05-colors-opacity-backgrounds-borders" title="Permanent link">&para;</a></h3>
+<p><strong>Q17.</strong> What does bg-blue-500 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-blue-500"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> background-color: var(--color-blue-500)</p>
+<p>Colours are theme variables (OKLCH in v4). Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q18.</strong> What does bg-black/50 produce in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-black/50"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> background-color: color-mix(in oklab, var(--color-black) 50%, transparent)</p>
+<p>The slash sets colour alpha without a separate opacity utility. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q19.</strong> What does rounded-lg border border-gray-300 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"rounded-lg border border-gray-300"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> border-radius: var(--radius-lg); border-style: var(--tw-border-style); border-width: 1px; border-color: var(--color-gray-300)</p>
+<p>border sets a 1px width; colour is separate. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q20.</strong> What does shadow-md use in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"shadow-md"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)</p>
+<p>Shadows compose through variables so rings and shadows can stack. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="06-layout-flexbox-utilities"><a href="../level-1/06-flexbox-layout/">06 · Layout &amp; Flexbox Utilities</a><a class="headerlink" href="#06-layout-flexbox-utilities" title="Permanent link">&para;</a></h3>
+<p><strong>Q21.</strong> What does flex items-center justify-between compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex items-center justify-between"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> display: flex; align-items: center; justify-content: space-between</p>
+<p>Main-axis alignment is justify-<em>; cross-axis is items-</em>. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q22.</strong> What does flex-1 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-1"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> flex: 1</p>
+<p>Grow and shrink to fill available space. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q23.</strong> What does gap-4 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"gap-4"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> gap: calc(var(--spacing) * 4)</p>
+<p>gap works in flex and grid containers. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q24.</strong> Which utility changes the main axis to vertical?</p>
+<p><strong>Answer:</strong> flex-col</p>
+<p>flex-row is the default.</p>
+<h3 id="07-grid-utilities"><a href="../level-1/07-grid/">07 · Grid Utilities</a><a class="headerlink" href="#07-grid-utilities" title="Permanent link">&para;</a></h3>
+<p><strong>Q25.</strong> What does grid grid-cols-3 gap-4 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"grid grid-cols-3 gap-4"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(var(--spacing) * 4)</p>
+<p>Equal-width columns via minmax(0, 1fr). Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q26.</strong> What does col-span-2 do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"col-span-2"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> grid-column: span 2 / span 2</p>
+<p>The item spans two tracks. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q27.</strong> How do you build a responsive auto-fit grid with an arbitrary minimum width?</p>
+<p><strong>Answer:</strong> grid-cols-[repeat(auto-fit,minmax(16rem,1fr))]</p>
+<p>Arbitrary values accept any CSS value.</p>
+<p><strong>Q28.</strong> When is grid better than flex?</p>
+<p><strong>Answer:</strong> When layout is two-dimensional (rows and columns) rather than a single line of items</p>
+<p>Choose per layout.</p>
+<h3 id="08-hover-focus-other-states-group-and-peer"><a href="../level-1/08-states-variants/">08 · Hover, Focus &amp; Other States: group and peer</a><a class="headerlink" href="#08-hover-focus-other-states-group-and-peer" title="Permanent link">&para;</a></h3>
+<p><strong>Q29.</strong> What does hover:bg-red-500 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"hover:bg-red-500"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (hover: hover) { &amp;:hover { background-color: var(--color-red-500)</p>
+<p>v4 wraps hover styles in @media (hover: hover) so touch devices don't get sticky hover. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q30.</strong> What does focus-visible:ring-2 do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"focus-visible:ring-2"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:focus-visible</p>
+<p>Only shows for keyboard-style focus. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q31.</strong> What does the group / group-hover: pair do?</p>
+<p><strong>Answer:</strong> Styles a child when a marked ancestor (class group) is hovered</p>
+<p>peer and peer-checked: do the same for siblings.</p>
+<p><strong>Q32.</strong> What does disabled:opacity-50 target?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"disabled:opacity-50"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:disabled</p>
+<p>State variants map to pseudo-classes. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="09-responsive-design-with-breakpoint-variants"><a href="../level-1/09-responsive/">09 · Responsive Design with Breakpoint Variants</a><a class="headerlink" href="#09-responsive-design-with-breakpoint-variants" title="Permanent link">&para;</a></h3>
+<p><strong>Q33.</strong> What does md:flex compile to (v4 default)?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"md:flex"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (width &gt;= 48rem) { .md\:flex { display: flex</p>
+<p>Breakpoints are rem-based and mobile-first: md is 48rem. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q34.</strong> What does mobile-first mean in Tailwind?</p>
+<p><strong>Answer:</strong> Unprefixed utilities apply to all sizes and prefixed ones (sm:, md:) apply from that breakpoint up</p>
+<p>Start with the small layout.</p>
+<p><strong>Q35.</strong> What does max-md:hidden do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"max-md:hidden"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (width &lt; 48rem)</p>
+<p>max-* variants apply below the breakpoint. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q36.</strong> Which tag is needed for responsive layouts to work on phones?</p>
+<p><strong>Answer:</strong> &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+<p>Without it phones render a desktop-width page.</p>
+<h3 id="10-project-a-landing-page"><a href="../level-1/10-project-landing-page/">10 · Project — A Landing Page</a><a class="headerlink" href="#10-project-a-landing-page" title="Permanent link">&para;</a></h3>
+<p><strong>Q37.</strong> What is a good order for building a landing page?</p>
+<p><strong>Answer:</strong> Structure and content first, then spacing and typography, then colour and polish, mobile first</p>
+<p>Iterate.</p>
+<p><strong>Q38.</strong> How do you keep repeated markup like cards manageable?</p>
+<p><strong>Answer:</strong> Extract a component (partial, template or framework component) rather than @apply-ing everything</p>
+<p>Utility repetition lives in components.</p>
+<p><strong>Q39.</strong> Why use semantic HTML with Tailwind?</p>
+<p><strong>Answer:</strong> Utilities style appearance only; elements and ARIA provide meaning and accessibility</p>
+<p>Use header, main, nav, button.</p>
+<p><strong>Q40.</strong> How do you check the page is responsive?</p>
+<p><strong>Answer:</strong> Resize or use device emulation at each breakpoint and test real content</p>
+<p>Content breaks layouts, not widths alone.</p>
+<h2 id="level-2-intermediate">Level 2 · Intermediate<a class="headerlink" href="#level-2-intermediate" title="Permanent link">&para;</a></h2>
+<h3 id="01-design-tokens-with-theme"><a href="../level-2/01-theme-directive/">01 · Design Tokens with @theme</a><a class="headerlink" href="#01-design-tokens-with-theme" title="Permanent link">&para;</a></h3>
+<p><strong>Q41.</strong> What does the @theme directive let you do in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>@theme {
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>  --color-brand: oklch(0.6 0.2 250);
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>}
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-brand"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> --color-brand: oklch(0.6 0.2 250)</p>
+<p>Variables defined in @theme generate matching utilities such as bg-brand. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q42.</strong> What does defining --color-brand in @theme create?</p>
+<p><strong>Answer:</strong> Utilities like bg-brand, text-brand and border-brand, plus a CSS variable usable anywhere</p>
+<p>Theme variables are the design tokens.</p>
+<p><strong>Q43.</strong> How do you add a custom breakpoint in v4?</p>
+<p><strong>Answer:</strong> Define --breakpoint-3xl: 120rem in @theme, generating the 3xl: variant</p>
+<p>Variants follow variable names.</p>
+<p><strong>Q44.</strong> What is the effect of --color-*: initial in @theme?</p>
+<p><strong>Answer:</strong> Resets the default colour palette so you can define your own</p>
+<p>Use to restrict a design system.</p>
+<h3 id="02-customizing-colors-fonts-spacing-breakpoints"><a href="../level-2/02-customizing-theme/">02 · Customizing Colors, Fonts, Spacing &amp; Breakpoints</a><a class="headerlink" href="#02-customizing-colors-fonts-spacing-breakpoints" title="Permanent link">&para;</a></h3>
+<p><strong>Q45.</strong> A theme sets --spacing: 0.5rem. What does p-4 become?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>@theme {
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>  --spacing: 0.5rem;
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>}
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"p-4"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> padding: calc(var(--spacing) * 4)</p>
+<p>The calc multiplies the variable, so the value is 2rem with that theme. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q46.</strong> How do you extend rather than replace the default theme?</p>
+<p><strong>Answer:</strong> Add new variables in @theme; only the namespaces you reset (like --color-*: initial) are replaced</p>
+<p>v4 merges by default.</p>
+<p><strong>Q47.</strong> Where can you reference a theme token outside utilities?</p>
+<p><strong>Answer:</strong> As a CSS variable such as var(--color-brand) in custom CSS or arbitrary values</p>
+<p>Tokens are real custom properties.</p>
+<p><strong>Q48.</strong> How do you organise a large theme?</p>
+<p><strong>Answer:</strong> Keep tokens in a dedicated CSS file imported into your entry, grouped by namespace</p>
+<p>Version tokens like code.</p>
+<h3 id="03-dark-mode"><a href="../level-2/03-dark-mode/">03 · Dark Mode</a><a class="headerlink" href="#03-dark-mode" title="Permanent link">&para;</a></h3>
+<p><strong>Q49.</strong> What does dark:bg-gray-900 compile to by default?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"dark:bg-gray-900"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (prefers-color-scheme: dark)</p>
+<p>The default dark variant follows the OS setting. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q50.</strong> How do you make dark mode class-based in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>@custom-variant dark (<span class="err">&amp;</span>:where(.dark, .dark *));
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"dark:bg-black"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:where(.dark, .dark *)</p>
+<p>Override with @custom-variant dark (&amp;:where(.dark, .dark *)). Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q51.</strong> Why avoid a flash of the wrong theme on load?</p>
+<p><strong>Answer:</strong> Apply the stored theme class before first paint with a tiny inline script in the head</p>
+<p>Respect system preference as the default.</p>
+<p><strong>Q52.</strong> How can semantic tokens simplify dark mode?</p>
+<p><strong>Answer:</strong> Define --color-surface and change its value per theme so components need fewer dark: variants</p>
+<p>Theme variables switch under .dark.</p>
+<h3 id="04-arbitrary-values-properties-css-variables"><a href="../level-2/04-arbitrary-values/">04 · Arbitrary Values, Properties &amp; CSS Variables</a><a class="headerlink" href="#04-arbitrary-values-properties-css-variables" title="Permanent link">&para;</a></h3>
+<p><strong>Q53.</strong> What does w-[13px] compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"w-[13px]"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> width: 13px</p>
+<p>Square brackets accept arbitrary values. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q54.</strong> What does bg-(--brand) do in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-(--brand)"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> background-color: var(--brand)</p>
+<p>Parentheses are shorthand for a CSS variable value. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q55.</strong> What does [mask-type:luminance] do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"[mask-type:luminance]"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> mask-type: luminance</p>
+<p>Arbitrary properties emit any declaration. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q56.</strong> What is a good reason to avoid arbitrary values everywhere?</p>
+<p><strong>Answer:</strong> They bypass the design system, so prefer theme tokens for anything reused</p>
+<p>Use for one-offs.</p>
+<h3 id="05-reusing-styles-components-apply-utility"><a href="../level-2/05-reusing-styles/">05 · Reusing Styles: Components, @apply &amp; @utility</a><a class="headerlink" href="#05-reusing-styles-components-apply-utility" title="Permanent link">&para;</a></h3>
+<p><strong>Q57.</strong> What is the recommended way to reuse a button style?</p>
+<p><strong>Answer:</strong> A component in your framework or template engine</p>
+<p>Keep utilities in one place.</p>
+<p><strong>Q58.</strong> When is @apply reasonable?</p>
+<p><strong>Answer:</strong> For styling third-party markup you cannot add classes to, or small base rules</p>
+<p>It loses the utility-first benefits.</p>
+<p><strong>Q59.</strong> What does @utility let you define in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>@utility card-contain {
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>  contain: layout paint;
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>}
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-contain"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> contain: layout paint</p>
+<p>Custom utilities work with variants automatically. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q60.</strong> What is the cost of heavy @apply use?</p>
+<p><strong>Answer:</strong> Larger CSS and hidden coupling, undermining the point of utilities</p>
+<p>Prefer components.</p>
+<h3 id="06-advanced-variants-aria-data-has-not-custom-variants"><a href="../level-2/06-advanced-variants/">06 · Advanced Variants: aria, data, has, not &amp; Custom Variants</a><a class="headerlink" href="#06-advanced-variants-aria-data-has-not-custom-variants" title="Permanent link">&para;</a></h3>
+<p><strong>Q61.</strong> What does group-hover:underline compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"group-hover:underline"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:is(:where(.group):hover *)</p>
+<p>The variant matches descendants of a hovered .group. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q62.</strong> What does has-[:checked]:bg-blue-50 target?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"has-[:checked]:bg-blue-50"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:has(:checked)</p>
+<p>Style a parent that contains a checked input. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q63.</strong> What does data-[state=open]:rotate-180 target?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"data-[state=open]:rotate-180"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;[data-state="open"]</p>
+<p>Style based on data attributes set by headless UI libraries. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q64.</strong> What does not-hover:opacity-75 do?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"not-hover:opacity-75"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:not(*:hover)</p>
+<p>not-* negates another variant. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="07-container-queries-in-tailwind"><a href="../level-2/07-container-queries/">07 · Container Queries in Tailwind</a><a class="headerlink" href="#07-container-queries-in-tailwind" title="Permanent link">&para;</a></h3>
+<p><strong>Q65.</strong> What does @md:flex do with a @container parent?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"@md:flex"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @container (width &gt;= 28rem)</p>
+<p>Container query variants respond to the nearest @container ancestor's width. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q66.</strong> How do you mark an element as a query container?</p>
+<p><strong>Answer:</strong> Add the @container class</p>
+<p>The class sets container-type: inline-size.</p>
+<p><strong>Q67.</strong> Why use container queries for components?</p>
+<p><strong>Answer:</strong> The component adapts to the space it is given, not the viewport</p>
+<p>Great for reusable cards.</p>
+<p><strong>Q68.</strong> What does @max-md: do?</p>
+<p><strong>Answer:</strong> Applies below the container breakpoint</p>
+<p>Range variants exist too.</p>
+<h3 id="08-styling-forms"><a href="../level-2/08-forms/">08 · Styling Forms</a><a class="headerlink" href="#08-styling-forms" title="Permanent link">&para;</a></h3>
+<p><strong>Q69.</strong> What does the @tailwindcss/forms plugin do?</p>
+<p><strong>Answer:</strong> Resets form controls to a consistent, easily styled baseline</p>
+<p>Load with @plugin.</p>
+<p><strong>Q70.</strong> How do you style invalid inputs?</p>
+<p><strong>Answer:</strong> Use invalid: or aria-invalid: variants</p>
+<p>Pair with visible error text.</p>
+<p><strong>Q71.</strong> What does focus:outline-2 focus:outline-blue-500 add?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"focus:outline-2 focus:outline-blue-500"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:focus</p>
+<p>Keep a visible focus indicator for accessibility. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q72.</strong> Why associate labels with inputs?</p>
+<p><strong>Answer:</strong> So screen readers and clicks work: use for/id or wrap the input in the label</p>
+<p>Placeholders are not labels.</p>
+<h3 id="09-transitions-transforms-animation"><a href="../level-2/09-transitions-animation/">09 · Transitions, Transforms &amp; Animation</a><a class="headerlink" href="#09-transitions-transforms-animation" title="Permanent link">&para;</a></h3>
+<p><strong>Q73.</strong> What does transition duration-200 ease-out compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"transition duration-200 ease-out"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> transition-duration: var(--tw-duration, var(--default-transition-duration))</p>
+<p>The duration utility sets a variable and a transition property group. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q74.</strong> Which animation utility spins an element?</p>
+<p><strong>Answer:</strong> animate-spin</p>
+<p>Use motion-reduce: to respect user preferences.</p>
+<p><strong>Q75.</strong> Why add motion-reduce: variants?</p>
+<p><strong>Answer:</strong> Users who prefer reduced motion should not get large animations</p>
+<p>Accessibility.</p>
+<p><strong>Q76.</strong> What does starting:opacity-0 enable?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"starting:opacity-0"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @starting-style</p>
+<p>Animate elements as they enter the DOM without JS. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="10-project-a-dashboard-layout"><a href="../level-2/10-project-dashboard/">10 · Project — A Dashboard Layout</a><a class="headerlink" href="#10-project-a-dashboard-layout" title="Permanent link">&para;</a></h3>
+<p><strong>Q77.</strong> What does the dashboard project combine?</p>
+<p><strong>Answer:</strong> Layout (grid and flex), components, dark mode, responsive design and a custom theme</p>
+<p>Level 2 capstone.</p>
+<p><strong>Q78.</strong> How do you make a data table responsive?</p>
+<p><strong>Answer:</strong> Wrap it in an overflow-x-auto container or reflow into cards on small screens</p>
+<p>Keep headers readable.</p>
+<p><strong>Q79.</strong> How do you keep contrast accessible?</p>
+<p><strong>Answer:</strong> Check text and background colours against WCAG ratios, including in dark mode</p>
+<p>Test with tooling.</p>
+<p><strong>Q80.</strong> How should you organise components?</p>
+<p><strong>Answer:</strong> Small, composable and styled with theme tokens</p>
+<p>Consistency scales.</p>
+<h2 id="level-3-advanced">Level 3 · Advanced<a class="headerlink" href="#level-3-advanced" title="Permanent link">&para;</a></h2>
+<h3 id="01-how-the-engine-works-scanning-generation"><a href="../level-3/01-how-the-engine-works/">01 · How the Engine Works: Scanning &amp; Generation</a><a class="headerlink" href="#01-how-the-engine-works-scanning-generation" title="Permanent link">&para;</a></h3>
+<p><strong>Q81.</strong> How does the v4 engine produce CSS?</p>
+<p><strong>Answer:</strong> It scans sources for candidate class names and compiles only the matching utilities (plus theme variables used)</p>
+<p>Written for speed in Rust-based tooling.</p>
+<p><strong>Q82.</strong> Why must class names appear as complete strings in source?</p>
+<p><strong>Answer:</strong> The scanner matches whole tokens, so dynamically built names like <code>bg-${color}-500</code> are not found</p>
+<p>Map to full class names.</p>
+<p><strong>Q83.</strong> What does @source do?</p>
+<p><strong>Answer:</strong> Adds extra paths or inline safelists for the scanner (and can exclude paths)</p>
+<p>Use for classes outside detected files.</p>
+<p><strong>Q84.</strong> What does the compiled output contain besides utilities?</p>
+<p><strong>Answer:</strong> Theme variables, preflight base styles and cascade layers</p>
+<p>Layers: theme, base, components, utilities.</p>
+<h3 id="02-cascade-layers-preflight-specificity"><a href="../level-3/02-layers-preflight/">02 · Cascade Layers, Preflight &amp; Specificity</a><a class="headerlink" href="#02-cascade-layers-preflight-specificity" title="Permanent link">&para;</a></h3>
+<p><strong>Q85.</strong> What are CSS cascade layers used for in Tailwind v4?</p>
+<p><strong>Answer:</strong> Predictable ordering: theme, base, components, utilities so utilities win over base and components</p>
+<p>Real @layer rules.</p>
+<p><strong>Q86.</strong> What does Preflight do?</p>
+<p><strong>Answer:</strong> Applies a modern CSS reset (box-sizing, margins, headings) as base styles</p>
+<p>Customise in @layer base.</p>
+<p><strong>Q87.</strong> Where should you put custom base styles?</p>
+<p><strong>Answer:</strong> In @layer base so utilities can still override them</p>
+<p>Order matters.</p>
+<p><strong>Q88.</strong> What is the benefit of layers for third-party CSS?</p>
+<p><strong>Answer:</strong> You can place it in a lower layer so utilities override it without !important</p>
+<p>Control specificity.</p>
+<h3 id="03-custom-utilities-functional-utilities-plugins"><a href="../level-3/03-custom-utilities-plugins/">03 · Custom Utilities, Functional Utilities &amp; Plugins</a><a class="headerlink" href="#03-custom-utilities-functional-utilities-plugins" title="Permanent link">&para;</a></h3>
+<p><strong>Q89.</strong> What does @plugin do in v4?</p>
+<p><strong>Answer:</strong> Loads a Tailwind plugin (such as typography or forms) from CSS</p>
+<p>No config file needed.</p>
+<p><strong>Q90.</strong> What can a plugin add?</p>
+<p><strong>Answer:</strong> Utilities, variants and base styles</p>
+<p>Written with the plugin API.</p>
+<p><strong>Q91.</strong> When should you write a plugin instead of @utility?</p>
+<p><strong>Answer:</strong> When you need programmatic generation (many values) or shared distribution</p>
+<p>Simple one-offs use @utility.</p>
+<p><strong>Q92.</strong> How do you add a custom variant in CSS?</p>
+<p><strong>Answer:</strong> @custom-variant name (selector);</p>
+<p>For example themes or states.</p>
+<h3 id="04-accessibility-with-tailwind"><a href="../level-3/04-accessibility/">04 · Accessibility with Tailwind</a><a class="headerlink" href="#04-accessibility-with-tailwind" title="Permanent link">&para;</a></h3>
+<p><strong>Q93.</strong> What does sr-only do?</p>
+<p><strong>Answer:</strong> Hides content visually but keeps it available to screen readers</p>
+<p>Use for labels and skip links.</p>
+<p><strong>Q94.</strong> Why prefer native elements like &lt;button&gt; over styled divs?</p>
+<p><strong>Answer:</strong> They provide semantics, keyboard support and focus behaviour for free</p>
+<p>Add ARIA only when needed.</p>
+<p><strong>Q95.</strong> What should focus styles guarantee?</p>
+<p><strong>Answer:</strong> A clearly visible indicator for keyboard users</p>
+<p>Don't remove outlines without replacement.</p>
+<p><strong>Q96.</strong> What does the motion-safe: variant do?</p>
+<p><strong>Answer:</strong> Applies styles only when the user has not requested reduced motion</p>
+<p>Pair with motion-reduce.</p>
+<h3 id="05-long-form-content-the-typography-plugin"><a href="../level-3/05-typography-plugin/">05 · Long-Form Content &amp; the Typography Plugin</a><a class="headerlink" href="#05-long-form-content-the-typography-plugin" title="Permanent link">&para;</a></h3>
+<p><strong>Q97.</strong> What does the typography plugin's prose class do?</p>
+<p><strong>Answer:</strong> Applies beautiful defaults to unstyled HTML such as markdown content</p>
+<p>Use prose-lg, dark:prose-invert.</p>
+<p><strong>Q98.</strong> Why use prose for CMS or markdown output?</p>
+<p><strong>Answer:</strong> You cannot add utilities to generated HTML</p>
+<p>Style once at the container.</p>
+<p><strong>Q99.</strong> How do you customise prose?</p>
+<p><strong>Answer:</strong> Element modifiers like prose-a:text-blue-600 or theme variables</p>
+<p>Keep it consistent.</p>
+<p><strong>Q100.</strong> How do you opt an element out of prose styles?</p>
+<p><strong>Answer:</strong> Wrap it in not-prose</p>
+<p>Useful for embedded components.</p>
+<h3 id="06-tailwind-in-component-frameworks-class-merging-variant-apis"><a href="../level-3/06-frameworks-class-merging/">06 · Tailwind in Component Frameworks: Class Merging &amp; Variant APIs</a><a class="headerlink" href="#06-tailwind-in-component-frameworks-class-merging-variant-apis" title="Permanent link">&para;</a></h3>
+<p><strong>Q101.</strong> Why use a class-merging helper such as tailwind-merge?</p>
+<p><strong>Answer:</strong> Later conflicting utilities should win (for example p-2 overriding p-4) which plain concatenation cannot guarantee</p>
+<p>CSS order, not class order, decides.</p>
+<p><strong>Q102.</strong> What does clsx or cn() do?</p>
+<p><strong>Answer:</strong> Builds class strings conditionally from arrays, objects and falsy values</p>
+<p>Combine with tailwind-merge.</p>
+<p><strong>Q103.</strong> What does a variants helper like cva provide?</p>
+<p><strong>Answer:</strong> Typed component variants (size, intent) mapped to class lists</p>
+<p>Keeps components consistent.</p>
+<p><strong>Q104.</strong> Why not build class names by string concatenation?</p>
+<p><strong>Answer:</strong> The scanner cannot see partial names, so styles go missing</p>
+<p>Use complete class strings.</p>
+<h3 id="07-building-a-design-system-on-tailwind"><a href="../level-3/07-design-systems/">07 · Building a Design System on Tailwind</a><a class="headerlink" href="#07-building-a-design-system-on-tailwind" title="Permanent link">&para;</a></h3>
+<p><strong>Q105.</strong> What is a design system built on Tailwind?</p>
+<p><strong>Answer:</strong> Tokens in @theme plus shared components and documented usage rules</p>
+<p>Tokens are the contract.</p>
+<p><strong>Q106.</strong> Why constrain the palette and spacing scale?</p>
+<p><strong>Answer:</strong> Consistency and faster decisions</p>
+<p>Reset defaults you don't want.</p>
+<p><strong>Q107.</strong> How do you document components?</p>
+<p><strong>Answer:</strong> Examples with usage, variants and accessibility notes (Storybook or similar)</p>
+<p>Make it discoverable.</p>
+<p><strong>Q108.</strong> How should design tokens change over time?</p>
+<p><strong>Answer:</strong> Versioned and communicated, with deprecations before removal</p>
+<p>Treat as an API.</p>
+<h3 id="08-migrating-from-v3-to-v4"><a href="../level-3/08-migrating-v3-v4/">08 · Migrating from v3 to v4</a><a class="headerlink" href="#08-migrating-from-v3-to-v4" title="Permanent link">&para;</a></h3>
+<p><strong>Q109.</strong> What replaced the three @tailwind directives in v4?</p>
+<p><strong>Answer:</strong> A single @import "tailwindcss"</p>
+<p>Migrate with the upgrade tool.</p>
+<p><strong>Q110.</strong> Where does configuration live in v4?</p>
+<p><strong>Answer:</strong> In CSS (@theme, @plugin, @source); tailwind.config.js is optional via @config</p>
+<p>CSS-first configuration.</p>
+<p><strong>Q111.</strong> What happened to bg-opacity-50 style utilities?</p>
+<p><strong>Answer:</strong> They were removed; use the slash opacity modifier such as bg-black/50</p>
+<p>Check the upgrade guide.</p>
+<p><strong>Q112.</strong> What should you do before upgrading a large project?</p>
+<p><strong>Answer:</strong> Run the official upgrade tool on a branch, review the diff and test visually</p>
+<p>Several defaults changed.</p>
+<h3 id="09-production-builds-performance"><a href="../level-3/09-production-performance/">09 · Production Builds &amp; Performance</a><a class="headerlink" href="#09-production-builds-performance" title="Permanent link">&para;</a></h3>
+<p><strong>Q113.</strong> What affects production CSS size most?</p>
+<p><strong>Answer:</strong> Only used utilities are emitted, so size grows with distinct classes, not with the framework</p>
+<p>Typically small.</p>
+<p><strong>Q114.</strong> Which step minimises CSS for production?</p>
+<p><strong>Answer:</strong> Build with minification (the CLI --minify or bundler) and serve compressed</p>
+<p>Gzip or Brotli.</p>
+<p><strong>Q115.</strong> How do you avoid layout shift from fonts?</p>
+<p><strong>Answer:</strong> Preload critical fonts and use font-display: swap with sensible fallbacks</p>
+<p>Measure with Lighthouse.</p>
+<p><strong>Q116.</strong> Why cache static CSS aggressively?</p>
+<p><strong>Answer:</strong> Fingerprinted filenames let browsers cache for a long time</p>
+<p>Bust on change.</p>
+<h3 id="10-project-a-component-library"><a href="../level-3/10-project-component-library/">10 · Project — A Component Library</a><a class="headerlink" href="#10-project-a-component-library" title="Permanent link">&para;</a></h3>
+<p><strong>Q117.</strong> What does the component library project produce?</p>
+<p><strong>Answer:</strong> A set of accessible, themeable components built from utilities and tokens</p>
+<p>Level 3 capstone.</p>
+<p><strong>Q118.</strong> Which tests help a component library?</p>
+<p><strong>Answer:</strong> Visual regression, accessibility checks and unit tests of variant logic</p>
+<p>Automate in CI.</p>
+<p><strong>Q119.</strong> How do you version a library?</p>
+<p><strong>Answer:</strong> Semantic versioning with a changelog</p>
+<p>Communicate breaking changes.</p>
+<p><strong>Q120.</strong> What belongs in a component's API?</p>
+<p><strong>Answer:</strong> Props for variants, sizes, states and an escape hatch for classes</p>
+<p>Keep it small.</p>
+<h2 id="level-4-master">Level 4 · Master<a class="headerlink" href="#level-4-master" title="Permanent link">&para;</a></h2>
+<h3 id="01-conventions-at-scale-class-order-linting-review"><a href="../level-4/01-conventions-at-scale/">01 · Conventions at Scale: Class Order, Linting &amp; Review</a><a class="headerlink" href="#01-conventions-at-scale-class-order-linting-review" title="Permanent link">&para;</a></h3>
+<p><strong>Q121.</strong> How do you keep class lists readable at scale?</p>
+<p><strong>Answer:</strong> Use the official Prettier plugin to sort classes and extract components</p>
+<p>Consistent ordering reduces diffs.</p>
+<p><strong>Q122.</strong> What is a good linting practice?</p>
+<p><strong>Answer:</strong> Lint for conflicting or unknown classes with an ESLint plugin</p>
+<p>Catch typos early.</p>
+<p><strong>Q123.</strong> What belongs in contribution guidelines?</p>
+<p><strong>Answer:</strong> Naming, token usage, component structure and review checklist</p>
+<p>Shared conventions.</p>
+<p><strong>Q124.</strong> Why define when to extract a component?</p>
+<p><strong>Answer:</strong> Prevent both premature abstraction and copy-paste sprawl</p>
+<p>Rule of three.</p>
+<h3 id="02-multi-brand-runtime-theming"><a href="../level-4/02-multi-brand-theming/">02 · Multi-Brand &amp; Runtime Theming</a><a class="headerlink" href="#02-multi-brand-runtime-theming" title="Permanent link">&para;</a></h3>
+<p><strong>Q125.</strong> How can multiple brands reuse the same components?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>@theme {
+<a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a>  --color-brand: oklch(0.6 0.2 250);
+<a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a>}
+<a id="__codelineno-37-4" name="__codelineno-37-4" href="#__codelineno-37-4"></a>
+<a id="__codelineno-37-5" name="__codelineno-37-5" href="#__codelineno-37-5"></a>/* each brand overrides the variable on a wrapper: [data-brand="b"] { --color-brand: ... } */
+<a id="__codelineno-37-6" name="__codelineno-37-6" href="#__codelineno-37-6"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-brand"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> background-color: var(--color-brand)</p>
+<p>Components use semantic tokens whose values switch per brand scope. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q126.</strong> What is the benefit of CSS variables for theming?</p>
+<p><strong>Answer:</strong> Values can change at runtime per scope without rebuilding CSS</p>
+<p>Per-tenant themes.</p>
+<p><strong>Q127.</strong> How do you scope a theme to part of the page?</p>
+<p><strong>Answer:</strong> Set the variables on a wrapper element via data attribute or class</p>
+<p>Children inherit.</p>
+<p><strong>Q128.</strong> What should components avoid hard-coding?</p>
+<p><strong>Answer:</strong> Brand colours and spacing; use tokens</p>
+<p>Tokens carry brand.</p>
+<h3 id="03-rtl-logical-utilities-internationalization"><a href="../level-4/03-rtl-logical/">03 · RTL, Logical Utilities &amp; Internationalization</a><a class="headerlink" href="#03-rtl-logical-utilities-internationalization" title="Permanent link">&para;</a></h3>
+<p><strong>Q129.</strong> What does ps-4 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"ps-4"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> padding-inline-start: calc(var(--spacing) * 4)</p>
+<p>Logical utilities adapt to writing direction. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q130.</strong> What does ms-auto compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"ms-auto"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> margin-inline-start: auto</p>
+<p>Use instead of ml-* for RTL support. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q131.</strong> What does rtl:space-x-reverse relate to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"rtl:flex-row-reverse"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> &amp;:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *)</p>
+<p>rtl: and ltr: variants target direction. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q132.</strong> Why prefer logical properties for international sites?</p>
+<p><strong>Answer:</strong> Layouts mirror automatically for right-to-left languages</p>
+<p>start/end beat left/right.</p>
+<h3 id="04-print-contrast-motion-other-media-variants"><a href="../level-4/04-media-variants/">04 · Print, Contrast, Motion &amp; Other Media Variants</a><a class="headerlink" href="#04-print-contrast-motion-other-media-variants" title="Permanent link">&para;</a></h3>
+<p><strong>Q133.</strong> What does print:hidden compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"print:hidden"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media print</p>
+<p>Hide navigation when printing. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q134.</strong> What does motion-reduce:transition-none use?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"motion-reduce:transition-none"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (prefers-reduced-motion: reduce)</p>
+<p>Honour user preference. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q135.</strong> What does contrast-more:border-2 use?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"contrast-more:border-2"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (prefers-contrast: more)</p>
+<p>Support high contrast preferences. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q136.</strong> What does portrait:flex-col respond to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"portrait:flex-col"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (orientation: portrait)</p>
+<p>Orientation variant. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<h3 id="05-modern-css-through-tailwind"><a href="../level-4/05-modern-css-features/">05 · Modern CSS Through Tailwind</a><a class="headerlink" href="#05-modern-css-through-tailwind" title="Permanent link">&para;</a></h3>
+<p><strong>Q137.</strong> What does text-balance compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"text-balance"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> text-wrap: balance</p>
+<p>Evens out line lengths in headings. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q138.</strong> What does aspect-video compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"aspect-video"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> aspect-ratio: var(--aspect-video)</p>
+<p>Reserve space for media without padding hacks. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q139.</strong> What does inset-0 produce?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"inset-0"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> inset: 0px</p>
+<p>Shorthand for top, right, bottom and left. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q140.</strong> When can you rely on newer CSS features like :has()?</p>
+<p><strong>Answer:</strong> When your browser support policy covers them, with graceful fallbacks otherwise</p>
+<p>Check support data.</p>
+<h3 id="06-working-with-existing-css-third-party-components"><a href="../level-4/06-interop-existing-css/">06 · Working with Existing CSS &amp; Third-Party Components</a><a class="headerlink" href="#06-working-with-existing-css-third-party-components" title="Permanent link">&para;</a></h3>
+<p><strong>Q141.</strong> How do you mix Tailwind with existing CSS?</p>
+<p><strong>Answer:</strong> Import it into layers so existing rules and utilities have predictable precedence</p>
+<p>@layer controls order.</p>
+<p><strong>Q142.</strong> What does the important modifier look like in v4?</p>
+<p><strong>Answer:</strong> A trailing exclamation mark such as p-4!</p>
+<p>The leading form is deprecated.</p>
+<p><strong>Q143.</strong> How do you migrate gradually from legacy CSS?</p>
+<p><strong>Answer:</strong> Introduce Tailwind for new components and refactor old ones as you touch them</p>
+<p>Avoid long-lived branches.</p>
+<p><strong>Q144.</strong> What prefix option avoids clashes with existing class names?</p>
+<p><strong>Answer:</strong> @import "tailwindcss" prefix(tw); giving tw:flex</p>
+<p>v4 uses a variant-style prefix.</p>
+<h3 id="07-tailwind-with-server-rendered-templates-static-sites"><a href="../level-4/07-server-templates/">07 · Tailwind with Server-Rendered Templates &amp; Static Sites</a><a class="headerlink" href="#07-tailwind-with-server-rendered-templates-static-sites" title="Permanent link">&para;</a></h3>
+<p><strong>Q145.</strong> How do you use Tailwind with server templates (Rails, Django, Blade)?</p>
+<p><strong>Answer:</strong> Point @source at template paths and use complete class names in templates</p>
+<p>The scanner reads any text.</p>
+<p><strong>Q146.</strong> What do you do about classes built from backend variables?</p>
+<p><strong>Answer:</strong> Map each value to a full class string or safelist it with @source inline()</p>
+<p>Static strings are required.</p>
+<p><strong>Q147.</strong> Why include the built CSS in the deployment artifact?</p>
+<p><strong>Answer:</strong> Production needs compiled CSS; the build runs in CI</p>
+<p>Don't compile at runtime.</p>
+<p><strong>Q148.</strong> How do you handle partials and components across templates?</p>
+<p><strong>Answer:</strong> Keep utility strings inside partials so changes happen in one place</p>
+<p>Reuse via includes.</p>
+<h3 id="08-debugging-tailwind"><a href="../level-4/08-debugging/">08 · Debugging Tailwind</a><a class="headerlink" href="#08-debugging-tailwind" title="Permanent link">&para;</a></h3>
+<p><strong>Q149.</strong> A class doesn't apply. What is the first thing to check?</p>
+<p><strong>Answer:</strong> That the class name appears as a complete string in a scanned file and the build is running</p>
+<p>Check @source and DevTools for the rule.</p>
+<p><strong>Q150.</strong> How can you find where a utility is overridden?</p>
+<p><strong>Answer:</strong> Inspect the element in DevTools to see which rule and layer wins</p>
+<p>Check specificity and order.</p>
+<p><strong>Q151.</strong> Why might a styled element appear unstyled in production only?</p>
+<p><strong>Answer:</strong> Dynamic class names or paths missing from @source were not scanned</p>
+<p>Compare builds.</p>
+<p><strong>Q152.</strong> What does <code>--watch</code> do in the CLI?</p>
+<p><strong>Answer:</strong> Rebuilds CSS when files change during development</p>
+<p>Not for production.</p>
+<h3 id="09-testing-tailwind-uis"><a href="../level-4/09-testing/">09 · Testing Tailwind UIs</a><a class="headerlink" href="#09-testing-tailwind-uis" title="Permanent link">&para;</a></h3>
+<p><strong>Q153.</strong> What can you test about Tailwind styles?</p>
+<p><strong>Answer:</strong> Behaviour via accessibility and visual regression tests, not individual utility output</p>
+<p>Test outcomes.</p>
+<p><strong>Q154.</strong> What is visual regression testing?</p>
+<p><strong>Answer:</strong> Comparing screenshots against baselines to catch unintended changes</p>
+<p>Use stable fonts and data.</p>
+<p><strong>Q155.</strong> Why run axe or similar accessibility checks in CI?</p>
+<p><strong>Answer:</strong> Catch contrast, label and ARIA issues early</p>
+<p>Complement manual testing.</p>
+<p><strong>Q156.</strong> How do you make visual tests stable?</p>
+<p><strong>Answer:</strong> Freeze data and time, disable animations and use consistent rendering environments</p>
+<p>Reduce flake.</p>
+<h3 id="10-capstone-a-saas-marketing-site-app-shell"><a href="../level-4/10-capstone/">10 · Capstone — A SaaS Marketing Site &amp; App Shell</a><a class="headerlink" href="#10-capstone-a-saas-marketing-site-app-shell" title="Permanent link">&para;</a></h3>
+<p><strong>Q157.</strong> What is the capstone's aim?</p>
+<p><strong>Answer:</strong> A production-ready design system or app with tokens, components, accessibility, theming and docs</p>
+<p>Bring it together.</p>
+<p><strong>Q158.</strong> What evidence shows quality?</p>
+<p><strong>Answer:</strong> Accessibility audits, visual tests, performance budgets and documentation</p>
+<p>Measure.</p>
+<p><strong>Q159.</strong> What belongs in the README?</p>
+<p><strong>Answer:</strong> Setup, tokens, component usage, contribution and release process</p>
+<p>Handover.</p>
+<p><strong>Q160.</strong> How do you manage change in the system?</p>
+<p><strong>Answer:</strong> Semantic versions, a changelog and deprecation policy</p>
+<p>Treat as a product.</p>
+<h2 id="mixed-questions-across-all-levels">Mixed questions across all levels<a class="headerlink" href="#mixed-questions-across-all-levels" title="Permanent link">&para;</a></h2>
+<p><strong>Q161.</strong> What does this compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"p-4 gap-2"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> padding: calc(var(--spacing) * 4); gap: calc(var(--spacing) * 2)</p>
+<p>Utilities multiply the --spacing theme variable, so the final size follows the theme. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q162.</strong> Which breakpoint rule does md:flex emit in v4?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"md:flex"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (width &gt;= 48rem) { .md\:flex { display: flex</p>
+<p>Breakpoints are mobile-first and rem-based. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q163.</strong> How is dark mode applied by default?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"dark:bg-gray-900"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (prefers-color-scheme: dark)</p>
+<p>The default dark variant follows the OS preference; override it with @custom-variant for a manual toggle. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q164.</strong> What does w-[13px] produce?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"w-[13px]"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> width: 13px</p>
+<p>Arbitrary values are emitted as written. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q165.</strong> What does bg-black/50 compile to?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"bg-black/50"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> background-color: color-mix(in oklab, var(--color-black) 50%, transparent)</p>
+<p>The slash modifier sets the colour's alpha. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q166.</strong> What does hover:bg-red-500 do on touch devices?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"hover:bg-red-500"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Answer:</strong> @media (hover: hover) { &amp;:hover { background-color: var(--color-red-500)</p>
+<p>v4 only applies hover styles where hover is supported. Verified by compiling it with Tailwind CSS v4.3 and checking the generated CSS.</p>
+<p><strong>Q167.</strong> What do you put in a CSS file to start Tailwind v4?</p>
+<p><strong>Answer:</strong> @import "tailwindcss";</p>
+<p>One import replaces the three v3 directives.</p>
+<p><strong>Q168.</strong> Why does <code>bg-${color}-500</code> fail to produce a style?</p>
+<p><strong>Answer:</strong> The scanner looks for complete class names, so partial strings are not found</p>
+<p>Map values to full class names or safelist them with @source inline().</p>
+<p><strong>Q169.</strong> When should you use @apply?</p>
+<p><strong>Answer:</strong> Sparingly, for styling markup you cannot add classes to; prefer components for reuse</p>
+<p>Heavy @apply undermines utility-first.</p>
+<p><strong>Q170.</strong> Where do design tokens live in v4?</p>
+<p><strong>Answer:</strong> In CSS custom properties defined in @theme, which also generate utilities</p>
+<p>CSS-first configuration.</p>
+<p><strong>Q171.</strong> How do you reuse a button style across an app?</p>
+<p><strong>Answer:</strong> Extract a framework component or template partial and keep utilities there</p>
+<p>One source of truth.</p>
+<p><strong>Q172.</strong> Why use tailwind-merge with a component's class prop?</p>
+<p><strong>Answer:</strong> Conflicting utilities (p-2 vs p-4) are resolved by CSS order, not class order, so merging picks the intended one</p>
+<p>cn() = clsx + tailwind-merge.</p>
+<p><strong>Q173.</strong> What does motion-reduce: let you do?</p>
+<p><strong>Answer:</strong> Turn off or soften animations for users who prefer reduced motion</p>
+<p>Accessibility.</p>
+<p><strong>Q174.</strong> What makes a form control accessible?</p>
+<p><strong>Answer:</strong> A real label tied to the input, visible focus styles and clear error text</p>
+<p>Utilities style, semantics inform.</p>
+<p><strong>Q175.</strong> How should you keep utility class order consistent?</p>
+<p><strong>Answer:</strong> Use the official Prettier plugin to sort classes</p>
+<p>Reduces noisy diffs.</p>
+<p><strong>Q176.</strong> What does the container query variant @md: respond to?</p>
+<p><strong>Answer:</strong> The width of the nearest @container ancestor, not the viewport</p>
+<p>Components adapt to the space they get.</p>
+<p><strong>Q177.</strong> What does rtl: help with and what is better?</p>
+<p><strong>Answer:</strong> Direction-specific overrides; prefer logical utilities such as ps-4 and ms-auto that adapt automatically</p>
+<p>Logical properties mirror for RTL.</p>
+<p><strong>Q178.</strong> How do you theme several brands with the same components?</p>
+<p><strong>Answer:</strong> Components use semantic tokens (such as bg-brand) whose variable values are switched per scope</p>
+<p>CSS variables change at runtime.</p>
+<p><strong>Q179.</strong> What should you check when a class does not apply?</p>
+<p><strong>Answer:</strong> That it appears as a complete string in a scanned file, then inspect the generated rule in DevTools</p>
+<p>Check @source and layer order.</p>
+<p><strong>Q180.</strong> What shows a Tailwind design system is production-ready?</p>
+<p><strong>Answer:</strong> Accessibility and visual-regression tests in CI, documentation and a versioned release process</p>
+<p>Treat tokens as an API.</p>
+<h2 id="practical-coding-questions">Practical coding questions<a class="headerlink" href="#practical-coding-questions" title="Permanent link">&para;</a></h2>
+<h3 id="a-responsive-card-classes-and-the-css-they-generate">A responsive card: classes and the CSS they generate<a class="headerlink" href="#a-responsive-card-classes-and-the-css-they-generate" title="Permanent link">&para;</a></h3>
+<p>Write the class list for a card (rounded, white, padded, shadowed; a row from the md breakpoint with a gap; gray hover and dark-mode backgrounds), then build it with the Tailwind v4 CLI and read the utilities layer of the generated CSS. The expected output below is the generated utilities layer from a real build; compare the order of rules and the shape of the variants.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a>/* input.css */
+<a id="__codelineno-54-2" name="__codelineno-54-2" href="#__codelineno-54-2"></a>@import "tailwindcss" source(none);
+<a id="__codelineno-54-3" name="__codelineno-54-3" href="#__codelineno-54-3"></a>@source "./index.html";
+<a id="__codelineno-54-4" name="__codelineno-54-4" href="#__codelineno-54-4"></a>
+<a id="__codelineno-54-5" name="__codelineno-54-5" href="#__codelineno-54-5"></a>&lt;!-- index.html: TODO - write the one-line class list for a card that
+<a id="__codelineno-54-6" name="__codelineno-54-6" href="#__codelineno-54-6"></a>     - has extra-large rounded corners, a white background, 1.5rem padding (p-6) and a medium shadow
+<a id="__codelineno-54-7" name="__codelineno-54-7" href="#__codelineno-54-7"></a>     - from the md breakpoint up is a row (flex) with vertically centred items and a 1.5rem gap (6 spacing steps)
+<a id="__codelineno-54-8" name="__codelineno-54-8" href="#__codelineno-54-8"></a>     - gets a gray-50 background on hover and a gray-900 background in dark mode --&gt;
+<a id="__codelineno-54-9" name="__codelineno-54-9" href="#__codelineno-54-9"></a>&lt;article class="TODO"&gt;
+<a id="__codelineno-54-10" name="__codelineno-54-10" href="#__codelineno-54-10"></a>  ...
+<a id="__codelineno-54-11" name="__codelineno-54-11" href="#__codelineno-54-11"></a>&lt;/article&gt;
+<a id="__codelineno-54-12" name="__codelineno-54-12" href="#__codelineno-54-12"></a>
+<a id="__codelineno-54-13" name="__codelineno-54-13" href="#__codelineno-54-13"></a>/* build */
+<a id="__codelineno-54-14" name="__codelineno-54-14" href="#__codelineno-54-14"></a>npx @tailwindcss/cli -i input.css -o out.css
+<a id="__codelineno-54-15" name="__codelineno-54-15" href="#__codelineno-54-15"></a>
+<a id="__codelineno-54-16" name="__codelineno-54-16" href="#__codelineno-54-16"></a>/* Then read the utilities layer of out.css: what rules did Tailwind generate for your classes, in what order? */
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-55-1" name="__codelineno-55-1" href="#__codelineno-55-1"></a>@layer utilities {
+<a id="__codelineno-55-2" name="__codelineno-55-2" href="#__codelineno-55-2"></a>  .rounded-xl {
+<a id="__codelineno-55-3" name="__codelineno-55-3" href="#__codelineno-55-3"></a>    border-radius: var(--radius-xl);
+<a id="__codelineno-55-4" name="__codelineno-55-4" href="#__codelineno-55-4"></a>  }
+<a id="__codelineno-55-5" name="__codelineno-55-5" href="#__codelineno-55-5"></a>  .bg-white {
+<a id="__codelineno-55-6" name="__codelineno-55-6" href="#__codelineno-55-6"></a>    background-color: var(--color-white);
+<a id="__codelineno-55-7" name="__codelineno-55-7" href="#__codelineno-55-7"></a>  }
+<a id="__codelineno-55-8" name="__codelineno-55-8" href="#__codelineno-55-8"></a>  .p-6 {
+<a id="__codelineno-55-9" name="__codelineno-55-9" href="#__codelineno-55-9"></a>    padding: calc(var(--spacing) * 6);
+<a id="__codelineno-55-10" name="__codelineno-55-10" href="#__codelineno-55-10"></a>  }
+<a id="__codelineno-55-11" name="__codelineno-55-11" href="#__codelineno-55-11"></a>  .shadow-md {
+<a id="__codelineno-55-12" name="__codelineno-55-12" href="#__codelineno-55-12"></a>    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+<a id="__codelineno-55-13" name="__codelineno-55-13" href="#__codelineno-55-13"></a>    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+<a id="__codelineno-55-14" name="__codelineno-55-14" href="#__codelineno-55-14"></a>  }
+<a id="__codelineno-55-15" name="__codelineno-55-15" href="#__codelineno-55-15"></a>  @media (hover: hover) {
+<a id="__codelineno-55-16" name="__codelineno-55-16" href="#__codelineno-55-16"></a>    .hover\:bg-gray-50:hover {
+<a id="__codelineno-55-17" name="__codelineno-55-17" href="#__codelineno-55-17"></a>      background-color: var(--color-gray-50);
+<a id="__codelineno-55-18" name="__codelineno-55-18" href="#__codelineno-55-18"></a>    }
+<a id="__codelineno-55-19" name="__codelineno-55-19" href="#__codelineno-55-19"></a>  }
+<a id="__codelineno-55-20" name="__codelineno-55-20" href="#__codelineno-55-20"></a>  @media (width &gt;= 48rem) {
+<a id="__codelineno-55-21" name="__codelineno-55-21" href="#__codelineno-55-21"></a>    .md\:flex {
+<a id="__codelineno-55-22" name="__codelineno-55-22" href="#__codelineno-55-22"></a>      display: flex;
+<a id="__codelineno-55-23" name="__codelineno-55-23" href="#__codelineno-55-23"></a>    }
+<a id="__codelineno-55-24" name="__codelineno-55-24" href="#__codelineno-55-24"></a>    .md\:items-center {
+<a id="__codelineno-55-25" name="__codelineno-55-25" href="#__codelineno-55-25"></a>      align-items: center;
+<a id="__codelineno-55-26" name="__codelineno-55-26" href="#__codelineno-55-26"></a>    }
+<a id="__codelineno-55-27" name="__codelineno-55-27" href="#__codelineno-55-27"></a>    .md\:gap-6 {
+<a id="__codelineno-55-28" name="__codelineno-55-28" href="#__codelineno-55-28"></a>      gap: calc(var(--spacing) * 6);
+<a id="__codelineno-55-29" name="__codelineno-55-29" href="#__codelineno-55-29"></a>    }
+<a id="__codelineno-55-30" name="__codelineno-55-30" href="#__codelineno-55-30"></a>  }
+<a id="__codelineno-55-31" name="__codelineno-55-31" href="#__codelineno-55-31"></a>  @media (prefers-color-scheme: dark) {
+<a id="__codelineno-55-32" name="__codelineno-55-32" href="#__codelineno-55-32"></a>    .dark\:bg-gray-900 {
+<a id="__codelineno-55-33" name="__codelineno-55-33" href="#__codelineno-55-33"></a>      background-color: var(--color-gray-900);
+<a id="__codelineno-55-34" name="__codelineno-55-34" href="#__codelineno-55-34"></a>    }
+<a id="__codelineno-55-35" name="__codelineno-55-35" href="#__codelineno-55-35"></a>  }
+<a id="__codelineno-55-36" name="__codelineno-55-36" href="#__codelineno-55-36"></a>}
+</code></pre></div>
+<p>??? success "Show a solution"</p>
+<div class="highlight"><pre><span></span><code>```
+/* input.css */
+@import "tailwindcss" source(none);
+@source "./index.html";
+
+&lt;!-- index.html --&gt;
+&lt;article class="rounded-xl bg-white p-6 shadow-md md:flex md:items-center md:gap-6 hover:bg-gray-50 dark:bg-gray-900"&gt;
+  ...
+&lt;/article&gt;
+
+/* build */
+npx @tailwindcss/cli -i input.css -o out.css
+```
+
+Each class becomes one rule; variants wrap or qualify the selector (a media query for md:, :hover inside @media (hover: hover), and a prefers-color-scheme query for dark:). Verified by compiling the classes with Tailwind CSS v4.3 and printing the utilities layer.
+</code></pre></div>
+<h3 id="design-tokens-a-custom-utility-and-a-custom-variant">Design tokens, a custom utility and a custom variant<a class="headerlink" href="#design-tokens-a-custom-utility-and-a-custom-variant" title="Permanent link">&para;</a></h3>
+<p>Define theme tokens, a custom breakpoint and spacing base in @theme, add a custom utility with @utility and a custom variant with @custom-variant, then compile classes that use them. The expected output shows the generated utilities and the theme variables Tailwind kept because they were used.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-57-1" name="__codelineno-57-1" href="#__codelineno-57-1"></a>/* input.css */
+<a id="__codelineno-57-2" name="__codelineno-57-2" href="#__codelineno-57-2"></a>@import "tailwindcss" source(none);
+<a id="__codelineno-57-3" name="__codelineno-57-3" href="#__codelineno-57-3"></a>@source "./index.html";
+<a id="__codelineno-57-4" name="__codelineno-57-4" href="#__codelineno-57-4"></a>
+<a id="__codelineno-57-5" name="__codelineno-57-5" href="#__codelineno-57-5"></a>/* TODO: in an @theme block define
+<a id="__codelineno-57-6" name="__codelineno-57-6" href="#__codelineno-57-6"></a>     --color-brand: oklch(0.62 0.19 255);  --color-brand-dark: oklch(0.45 0.17 255);
+<a id="__codelineno-57-7" name="__codelineno-57-7" href="#__codelineno-57-7"></a>     --breakpoint-3xl: 120rem;             --spacing: 0.5rem;
+<a id="__codelineno-57-8" name="__codelineno-57-8" href="#__codelineno-57-8"></a>   TODO: a custom utility text-pretty-balance that sets text-wrap: balance (@utility)
+<a id="__codelineno-57-9" name="__codelineno-57-9" href="#__codelineno-57-9"></a>   TODO: a custom variant theme-night that matches [data-theme=night] and its descendants (@custom-variant)  */
+<a id="__codelineno-57-10" name="__codelineno-57-10" href="#__codelineno-57-10"></a>
+<a id="__codelineno-57-11" name="__codelineno-57-11" href="#__codelineno-57-11"></a>&lt;!-- index.html --&gt;
+<a id="__codelineno-57-12" name="__codelineno-57-12" href="#__codelineno-57-12"></a>&lt;div class="bg-brand text-brand-dark p-4 3xl:p-8 theme-night:bg-brand-dark text-pretty-balance"&gt;...&lt;/div&gt;
+<a id="__codelineno-57-13" name="__codelineno-57-13" href="#__codelineno-57-13"></a>
+<a id="__codelineno-57-14" name="__codelineno-57-14" href="#__codelineno-57-14"></a>/* Then read out.css: which rules and which theme variables were generated, and what does p-4 become with the new --spacing? */
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-58-1" name="__codelineno-58-1" href="#__codelineno-58-1"></a>@layer utilities {
+<a id="__codelineno-58-2" name="__codelineno-58-2" href="#__codelineno-58-2"></a>  .bg-brand {
+<a id="__codelineno-58-3" name="__codelineno-58-3" href="#__codelineno-58-3"></a>    background-color: var(--color-brand);
+<a id="__codelineno-58-4" name="__codelineno-58-4" href="#__codelineno-58-4"></a>  }
+<a id="__codelineno-58-5" name="__codelineno-58-5" href="#__codelineno-58-5"></a>  .p-4 {
+<a id="__codelineno-58-6" name="__codelineno-58-6" href="#__codelineno-58-6"></a>    padding: calc(var(--spacing) * 4);
+<a id="__codelineno-58-7" name="__codelineno-58-7" href="#__codelineno-58-7"></a>  }
+<a id="__codelineno-58-8" name="__codelineno-58-8" href="#__codelineno-58-8"></a>  .text-pretty-balance {
+<a id="__codelineno-58-9" name="__codelineno-58-9" href="#__codelineno-58-9"></a>    text-wrap: balance;
+<a id="__codelineno-58-10" name="__codelineno-58-10" href="#__codelineno-58-10"></a>  }
+<a id="__codelineno-58-11" name="__codelineno-58-11" href="#__codelineno-58-11"></a>  .text-brand-dark {
+<a id="__codelineno-58-12" name="__codelineno-58-12" href="#__codelineno-58-12"></a>    color: var(--color-brand-dark);
+<a id="__codelineno-58-13" name="__codelineno-58-13" href="#__codelineno-58-13"></a>  }
+<a id="__codelineno-58-14" name="__codelineno-58-14" href="#__codelineno-58-14"></a>  @media (width &gt;= 120rem) {
+<a id="__codelineno-58-15" name="__codelineno-58-15" href="#__codelineno-58-15"></a>    .\33 xl\:p-8 {
+<a id="__codelineno-58-16" name="__codelineno-58-16" href="#__codelineno-58-16"></a>      padding: calc(var(--spacing) * 8);
+<a id="__codelineno-58-17" name="__codelineno-58-17" href="#__codelineno-58-17"></a>    }
+<a id="__codelineno-58-18" name="__codelineno-58-18" href="#__codelineno-58-18"></a>  }
+<a id="__codelineno-58-19" name="__codelineno-58-19" href="#__codelineno-58-19"></a>  .theme-night\:bg-brand-dark:where([data-theme=night], [data-theme=night] *) {
+<a id="__codelineno-58-20" name="__codelineno-58-20" href="#__codelineno-58-20"></a>    background-color: var(--color-brand-dark);
+<a id="__codelineno-58-21" name="__codelineno-58-21" href="#__codelineno-58-21"></a>  }
+<a id="__codelineno-58-22" name="__codelineno-58-22" href="#__codelineno-58-22"></a>}
+<a id="__codelineno-58-23" name="__codelineno-58-23" href="#__codelineno-58-23"></a>
+<a id="__codelineno-58-24" name="__codelineno-58-24" href="#__codelineno-58-24"></a>/* theme variables emitted (only those used) */
+<a id="__codelineno-58-25" name="__codelineno-58-25" href="#__codelineno-58-25"></a>--spacing: 0.5rem
+<a id="__codelineno-58-26" name="__codelineno-58-26" href="#__codelineno-58-26"></a>--color-brand: oklch(0.62 0.19 255)
+<a id="__codelineno-58-27" name="__codelineno-58-27" href="#__codelineno-58-27"></a>--color-brand-dark: oklch(0.45 0.17 255)
+</code></pre></div>
+<p>??? success "Show a solution"</p>
+<div class="highlight"><pre><span></span><code>```
+/* input.css */
+@import "tailwindcss" source(none);
+@source "./index.html";
+@theme {
+  --color-brand: oklch(0.62 0.19 255);
+  --color-brand-dark: oklch(0.45 0.17 255);
+  --breakpoint-3xl: 120rem;
+  --spacing: 0.5rem;
+}
+@utility text-pretty-balance { text-wrap: balance; }
+@custom-variant theme-night (&amp;:where([data-theme=night], [data-theme=night] *));
+
+&lt;!-- index.html --&gt;
+&lt;div class="bg-brand text-brand-dark p-4 3xl:p-8 theme-night:bg-brand-dark text-pretty-balance"&gt;...&lt;/div&gt;
+```
+
+Variables in @theme become real CSS custom properties and generate matching utilities (bg-brand, 3xl:p-8); @utility and @custom-variant add your own. Only the variables actually used are emitted, and p-4 is now calc(var(--spacing) * 4) with the 0.5rem base. Verified by compiling with Tailwind CSS v4.3.
+</code></pre></div>
+<hr />
+<p>More free practice: the <a href="../">Tailwind CSS Mastery Path</a> curriculum, the <a href="https://learnmasterypath.com/interview-pack/">Interview Prep Pack</a> and the <a href="https://learnmasterypath.com/resume/">free resume ATS check</a>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+  
+  <nav class="mp-related" aria-label="Related free courses">
+    <h2>Related free courses</h2>
+    <ul>
+      <li><a href="https://learnmasterypath.com/react-mastery-path/">React</a></li><li><a href="https://learnmasterypath.com/nextjs-mastery-path/">Next.js</a></li><li><a href="https://learnmasterypath.com/angular-mastery-path/">Angular</a></li><li><a href="https://learnmasterypath.com/vue-mastery-path/">Vue.js</a></li><li><a href="https://learnmasterypath.com/html-css-mastery-path/">HTML & CSS</a></li>
+      <li><a href="https://learnmasterypath.com/">All 100+ courses &rarr;</a></li>
+    </ul>
+  </nav>
+  
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../cheat-sheet/" class="md-footer__link md-footer__link--next" aria-label="Next: Cheat Sheet">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Cheat Sheet
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="mp-foot">
+    <div class="mp-foot-inner">
+      <a class="mp-foot-brand" href="https://learnmasterypath.com/"><svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg><span>Mastery Path</span></a>
+      <nav class="mp-sitelinks" aria-label="Site and legal links">
+        <a href="https://learnmasterypath.com/">All courses</a>
+        <a href="https://learnmasterypath.com/about.html">About</a>
+        <a href="https://learnmasterypath.com/contact.html">Contact</a>
+        <a href="https://learnmasterypath.com/tailwind-mastery-path/privacy/">Privacy Policy</a>
+        <a href="https://learnmasterypath.com/terms.html">Terms</a>
+        <a href="https://learnmasterypath.com/tailwind-mastery-path/license/">License</a>
+        <a href="https://learnmasterypath.com/verify/">Verify a certificate</a>
+      </nav>
+    </div>
+    <p class="mp-license-note">
+      © 2026 Vinod Kumar Sigilipelli · Except where otherwise noted, lesson content is licensed under
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> and code examples under the
+      <a href="https://opensource.org/license/mit">MIT License</a>.
+    </p>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.path", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "content.code.copy", "content.code.annotate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../javascripts/progress-tracker.js"></script>
+      
+        <script src="../javascripts/final-quiz.js"></script>
+      
+    
+  </body>
+</html>
