@@ -1,6 +1,6 @@
 ---
 title: "Free Tailwind CSS Course: Tailwind v4 Utilities, Theming, Accessibility & Testing"
-description: "Free Tailwind CSS v4 course: 36 lessons and 4 projects on utilities, @theme tokens, dark mode, container queries, accessibility, design systems and testing."
+description: "Free Tailwind CSS v4 course: 36 lessons, 3 projects and 1 capstone on utilities, @theme tokens, dark mode, container queries, accessibility, design systems and testing."
 ---
 
 # Tailwind CSS Mastery Path
